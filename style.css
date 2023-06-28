@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+}
+body{
+    width:100%;
+    max-width: 1440px;
+    background-color: #3a4764;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    color:#fff;
+}
+.toggle{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    justify-content:flex-end; 
+}
+.toggle p{
+    margin:0 5px;
+    color:#fff;
+}
+.control p{
+    float:right;
+    margin-right: 70px;
+    color:#fff;
+}
+.screen{
+    width:450px;
+}
+#screen{
+    width:100%;
+    height:80px;
+    margin:10px 0;
+    text-align: right;
+    font-size: 32px;
+    background-color: #182034;
+    color:#fff;
+    border:0;
+    outline:none
+}
+button{
+    width:90px;
+    padding:15px;
+    margin:10px;
+    outline:none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #404e72;
+    /* font-size: 32px; */
+}
+.btn{
+    display: flex;
+    width:450px;
+    flex-flow: wrap;
+    background-color:#182034 ;
+    padding: 10px 5px;
+    margin: 8px 0;
+    font-size: 32px;
+}
+.num{
+    font-size: 32px;
+}
+.reset,.del{
+    background-color: #637097;
+    box-shadow: 0 3px 0 0 #404e72;
+    color:#ffffff; 
+    font-size: 16px; 
+}
+.reset, .equal{
+    width:200px;
+    color:#ffffff;
+    font-size: 16px;
+    }
+/* .reset{
+    background-color: #637097;
+    box-shadow: 0 3px 0 0 #404e72; 
+} */
+.equal{
+    box-shadow:0 3px 0 0 #404e72 ;
+    background-color: #d03f2f;
+}
